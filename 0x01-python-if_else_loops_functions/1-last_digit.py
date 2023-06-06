@@ -5,7 +5,7 @@ dgt = abs(number) % 10
 if number < 0:
     dgt = -dgt
 print("Last dgt of {} is {} and is ".format(number, dgt), end="")
-if digit > 5:
+if dgt > 5:
     print("greater than 5")
 elif dgt == 0:
     print("0")
