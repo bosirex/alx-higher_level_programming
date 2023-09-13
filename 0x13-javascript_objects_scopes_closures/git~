@@ -1,4 +1,0 @@
-#!/binbash
-git add .
-git commit -m"javascript_objects_scopes_closures"
-git push
