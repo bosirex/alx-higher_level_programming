@@ -1,5 +1,7 @@
 #!/usr/bin/node
-class Rectangle {
+// class Rectangle that defines a rectangle
+
+class Rectangle{
 }
 
 module.exports = Rectangle;
