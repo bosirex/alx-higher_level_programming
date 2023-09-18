@@ -28,7 +28,7 @@ if __name__ == "__main__":
     # Prepare the SQL query with placeholders
     sql_query = "SELECT * FROM states WHERE name = %s ORDER BY id ASC"
 
-    # Execute the query 
+    # Execute the query
     cursor.execute(sql_query, (state_name,))
 
     # Fetch all the rows returned by the query
