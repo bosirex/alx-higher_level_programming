@@ -8,10 +8,10 @@ request(starWarsUri, function (_err, _res, body) {
   body = JSON.parse(body).results;
 
   for (let k = 0; k < body.length; ++k) {
-    const characters = body[i].characters;
+    const characters = body[k].characters;
 
     for (let i = 0; i < characters.length; ++i) {
-      const character = characters[j];
+      const character = characters[i];
       const characterId = character.split('/')[5];
 
       if (characterId === '18') {
